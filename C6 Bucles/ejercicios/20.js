@@ -5,7 +5,7 @@ function sumarHastaNConBreak(n) {
    // Tu código:
    
                               // RESOLUCION 1 (NO ES DEL TODO CORRECTA) DONDE DA 105 por default, si es que no se EXPRESA un nro para n 
-      var InicioSuma = 0;
+      let InicioSuma = 0;
      
       for (let i=0; i<n; i++) {
         InicioSuma = InicioSuma +i;    
