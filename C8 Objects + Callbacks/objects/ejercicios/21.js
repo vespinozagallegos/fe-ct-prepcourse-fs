@@ -9,6 +9,44 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
   // PorcentajeDeDescuento ---> 0.2
   // Precio final ---> 8
   // Tu código:
-}
+
+     
+};
 
 module.exports = agregarMetodoCalculoDescuento;
+
+//objetoProducto.calcularPrecioDescuento = OperacionMat (PrecioProducto, PorcentajeDescuento);
+
+// function OperacionMat(a, b) {
+//   return a*b;
+// }
+
+// let PrecioProducto = objetoProducto.precio;
+// let PorcentajeDescuento = objetoProducto.porcentajeDeDescuento;
+
+//let PrecioConDescuento = PrecioProducto - objetoProducto.calcularPrecioDescuento;  // o = objetoProducto.precio - objetoProducto.calcularPrecioDescuento;
+
+//return PrecioConDescuento;
+
+
+// // CON CALLBACKS OP 2
+// let Precio = function () {
+//   return objetoProducto["precio"];    
+// }
+
+// let Descuento = function () {
+//   return objetoProducto["porcentajeDeDescuento"];
+// }
+
+// let Operacion = function (cb1, cb2) {
+//   return cb1 - (cb1 * cb2);
+// }
+
+// objetoProducto["calcularPrecioDescuento"] = Operacion (Precio, Descuento);
+
+// return objetoProducto["calcularPrecioDescuento"];
+
+// // let Resultado = Operacion (Precio, Descuento);
+
+
+// // return Resultado;

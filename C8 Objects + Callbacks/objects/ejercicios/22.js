@@ -5,6 +5,17 @@ function esAnagrama(str1, str2) {
    // IMPORTANTE: Un anagrama es una palabra que se forma
    // con las mismas letras que otra, pero en orden diferente.
    // Tu código:
+
+   if (str1.toLowerCase().split("").sort().join("") === str2.toLowerCase().split("").sort().join("")) { //HACER ENFASIS EN LAS COMILLAS QUE DEBEN IR EN SPLIT Y JOIN PARA EJEMPLIFICAR    let VARIABLE = "palabra".split("")     LUEGO PONER VARIABLE     LUEGO VARIABLE.join("")
+      return true;
+   }else{
+      return false;
+   }
+   
+   
+   // if (str1.length !== str2.length) {
+   //    return false;
+   // }
 }
 
 module.exports = esAnagrama;
